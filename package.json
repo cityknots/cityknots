@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "string",
+  "name": "cityknots",
   "version": "0.1.0",
-  "description": "String frontend.",
+  "description": "Cityknots frontend.",
   "main": "./app/app.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./tasks/webpack.dev.config.js --content-base build --devtool sourcemaps --progress --colors --hot --host 0.0.0.0",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stringcr/string.git"
+    "url": "git+https://github.com/cityknots/cityknots.git"
   },
   "author": ["Carlos Cruz <cruz5114@gmial.com>", "Kevin Wolf <kevinvillaloboscr@gmail.com>"],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stringcr/string/issues"
+    "url": "https://github.com/cityknots/cityknots/issues"
   },
-  "homepage": "https://github.com/stringcr/string#readme"
+  "homepage": "https://github.com/cityknots/cityknots#readme"
 }
