@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "string",
+  "version": "0.1.0",
+  "description": "String frontend.",
+  "main": "./app/app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./tasks/webpack.dev.config.js --content-base build --devtool sourcemaps --progress --colors --hot --host 0.0.0.0",
+    "predeploy": "webpack -p --config ./tasks/webpack.production.config.js",
+    "deploy": "node ./tasks/deploy.js",
+    "pretest": "eslint ./app",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stringcr/string.git"
+  },
+  "author": ["Carlos Cruz <cruz5114@gmial.com>", "Kevin Wolf <kevinvillaloboscr@gmail.com>"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stringcr/string/issues"
+  },
+  "homepage": "https://github.com/stringcr/string#readme"
+}
